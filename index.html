@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media with AI - Handout</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for specific elements if needed */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased line-height-relaxed">
+
+    <!-- Header Section - Color Changed to #b42b2c -->
+    <header class="bg-[#b42b2c] text-white py-12 px-4 shadow-lg">
+        <div class="max-w-3xl mx-auto text-center">
+            <!-- Logo moved inside header with white background for visibility -->
+            <div class="mb-6 flex justify-center">
+                <div class="bg-white p-3 rounded-lg shadow-sm inline-block">
+                    <!-- Updated Image Source -->
+                    <img src="https://germany.ewmd.org/photos/49623_02092020023917.jpg" alt="EWMD Logo" class="h-16 object-contain">
+                </div>
+            </div>
+
+            <!-- H1 and H2 now share the same large styling -->
+            <h1 class="text-4xl md:text-5xl font-bold mb-2 tracking-tight">Social Media with AI</h1>
+            <h2 class="text-4xl md:text-5xl font-bold mb-8 tracking-tight text-white">In 90 Minutes – From Idea to Post</h2>
+            
+            <!-- Trainer Info increased to previous H2 size (text-xl md:text-2xl font-light) -->
+            <p class="text-xl md:text-2xl font-light text-red-50 opacity-95">A training with Beate Roos, Director Digital & IT</p>
+        </div>
+    </header>
+
+    <!-- Intro Text -->
+    <div class="max-w-3xl mx-auto px-6 py-8">
+        <p class="text-lg leading-relaxed text-gray-700">
+            This handout accompanies the workshop and helps you repeat all steps independently after the session. The goal is not perfection, but speed, clarity, and practical application.
+        </p>
+        <hr class="my-8 border-gray-300">
+    </div>
+
+    <!-- Main Content -->
+    <main class="max-w-3xl mx-auto px-6 pb-12 space-y-16">
+
+        <!-- Section 1 -->
+        <section id="section-1">
+            <!-- Accent color updated to match header -->
+            <h2 class="text-3xl font-bold text-gray-900 mb-6 border-b-2 border-[#b42b2c] pb-2 inline-block">1. Finding Topics – Getting Past the Blank Page</h2>
+            
+            <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 mb-6">
+                <h3 class="text-xl font-semibold text-[#b42b2c] mb-2">Tool: NotebookLM</h3>
+                <p class="mb-2">🔗 <strong>Go to the tool:</strong> <a href="https://notebooklm.google.com" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">https://notebooklm.google.com</a></p>
+                <p class="text-gray-600">NotebookLM is ideal for identifying topics in a structured way that are truly relevant to everyday work.</p>
+            </div>
+
+            <div class="space-y-4">
+                <p class="font-bold">How to proceed:</p>
+                <ol class="list-decimal pl-6 space-y-4 text-gray-700">
+                    <li>
+                        Ask NotebookLM for current, work-related AI topics:
+                        <!-- Dark Prompt Box -->
+                        <div class="bg-gray-800 text-gray-200 p-4 mt-2 rounded-lg shadow-inner font-mono text-sm leading-relaxed">
+                            Show me 20 current topics that are relevant for people in their daily work when it comes to using AI. These can be problems as well as opportunities.
+                        </div>
+                    </li>
+                    <li>Ask for the results to be displayed as a <strong>mind map</strong>.</li>
+                    <li>
+                        Then go deeper:
+                        <!-- Dark Prompt Box -->
+                        <div class="bg-gray-800 text-gray-200 p-4 mt-2 rounded-lg shadow-inner font-mono text-sm leading-relaxed">
+                            What are the top 20 problems or opportunities that people see for themselves when dealing with AI?
+                        </div>
+                    </li>
+                    <li>
+                        Create a short <strong>report or blog post</strong> from the results.
+                    </li>
+                </ol>
+                
+                <div class="mt-4 p-4 bg-red-50 rounded text-red-900">
+                    <p class="mb-2">➡️ This output is your content foundation.</p>
+                    <p class="mb-2">👉 <strong>Important:</strong> The prompts used above are <strong>example prompts</strong>. You can and should adapt them to your own questions, industries, and target groups.</p>
+                    <p>👉 <strong>Quality note:</strong> For particularly well-founded or strategic content, consider using <strong>Deep Research</strong> instead of fast research. In the training, we deliberately used fast research to show speed and workflow – for higher quality and depth, Deep Research is recommended.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr class="border-gray-200">
+
+        <!-- Section 2 -->
+        <section id="section-2">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6 border-b-2 border-[#b42b2c] pb-2 inline-block">2. From Research to Post Ideas</h2>
+            
+            <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 mb-6">
+                <h3 class="text-xl font-semibold text-[#b42b2c] mb-2">Tool: ChatGPT (or another AI of your choice)</h3>
+                <p class="mb-2">🔗 <strong>Go to ChatGPT:</strong> <a href="https://chatgpt.com" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">https://chatgpt.com</a></p>
+                <p class="text-gray-600">👉 <strong>Note:</strong> Use the AI you have worked with the most so far. The logic is tool-independent.</p>
+            </div>
+
+            <div class="space-y-4">
+                <p class="font-bold">How to proceed:</p>
+                <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                    <li>Paste the report or blog post into the AI.</li>
+                    <li>If the text is too long, create a document and upload it.</li>
+                </ul>
+
+                <p class="font-bold mt-4">Prompt for idea generation:</p>
+                <!-- Dark Prompt Box -->
+                <div class="bg-gray-800 text-gray-200 p-4 rounded-lg shadow-inner font-mono text-sm leading-relaxed">
+                    Create at least 10 different thematic content blocks for LinkedIn social media posts based on the following text.
+                </div>
+                
+                <div class="p-2 text-red-900">
+                    ➡️ These suggestions serve as raw material for your editorial plan.
+                </div>
+            </div>
+        </section>
+
+        <hr class="border-gray-200">
+
+        <!-- Section 3 -->
+        <section id="section-3">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6 border-b-2 border-[#b42b2c] pb-2 inline-block">3. Creating an Editorial Plan – Without a Goal, Content Goes Nowhere</h2>
+            
+            <p class="mb-4 text-gray-700">Before planning, define your <strong>primary goal</strong>. Without a goal, the AI produces random output.</p>
+            
+            <p class="font-bold text-gray-800">Possible goals:</p>
+            <ul class="list-disc pl-6 mb-6 space-y-1 text-gray-700">
+                <li>Visibility & reach</li>
+                <li>Lead generation / inquiries</li>
+                <li>Building expertise</li>
+                <li>Building trust</li>
+            </ul>
+
+            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Structure of the Editorial Plan Prompt</h3>
+            <p class="mb-4 text-gray-700">This prompt consists of clear building blocks that you can adapt to your own needs at any time:</p>
+
+            <ol class="list-decimal pl-6 space-y-6 text-gray-700">
+                <li>
+                    <strong>Goal definition</strong>
+                    <!-- Dark Prompt Box -->
+                    <div class="bg-gray-800 text-gray-200 p-3 mt-1 rounded-lg shadow-inner font-mono text-sm leading-relaxed">
+                        Now create a one-month editorial plan with the goal of {{GOAL}}.
+                    </div>
+                </li>
+                <li>
+                    <strong>Frequency & scope</strong>
+                    <!-- Dark Prompt Box -->
+                    <div class="bg-gray-800 text-gray-200 p-3 mt-1 rounded-lg shadow-inner font-mono text-sm leading-relaxed">
+                        I want to publish {{NUMBER}} posts per week / per month.
+                    </div>
+                </li>
+                <li>
+                    <strong>Timing (optional, but recommended)</strong>
+                    <!-- Dark Prompt Box -->
+                    <div class="bg-gray-800 text-gray-200 p-3 mt-1 rounded-lg shadow-inner font-mono text-sm leading-relaxed">
+                        My best days and times to publish are {{DAY + TIME}}, e.g. Tuesday morning and Thursday afternoon.
+                    </div>
+                </li>
+                <li>
+                    <strong>Output format</strong>
+                    <!-- Dark Prompt Box -->
+                    <div class="bg-gray-800 text-gray-200 p-3 mt-1 rounded-lg shadow-inner font-mono text-sm leading-relaxed">
+                        Please present the editorial plan as a table and make it available for download so I can use it as an Excel file.
+                    </div>
+                </li>
+            </ol>
+
+            <div class="mt-6 p-4 bg-yellow-50 border border-yellow-200 rounded text-gray-800">
+                <p class="mb-2">👉 <strong>Important:</strong> You can explicitly request additional columns in the prompt, for example:</p>
+                <ul class="list-disc pl-6 mb-2 text-sm">
+                    <li>publication date</li>
+                    <li>channel / platform (e.g. LinkedIn, Instagram, Facebook)</li>
+                    <li>status (planned, published, revised)</li>
+                    <li>call-to-action</li>
+                </ul>
+                <p>If you do not specify these in the prompt, you can easily add them later directly in Excel.</p>
+            </div>
+        </section>
+
+        <hr class="border-gray-200">
+
+        <!-- Section 4 -->
+        <section id="section-4">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6 border-b-2 border-[#b42b2c] pb-2 inline-block">4. Style Is Not an Accident – It Is a Decision</h2>
+            
+            <p class="mb-6 text-gray-700">Before finalizing content, define your style consciously – not based on gut feeling, but systematically.</p>
+
+            <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 mb-6">
+                <h3 class="text-xl font-semibold text-[#b42b2c] mb-2">Tool: ChatGPT (or another AI of your choice)</h3>
+                <p class="mb-2">🔗 <strong>Go to ChatGPT:</strong> <a href="https://chatgpt.com" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">https://chatgpt.com</a></p>
+                <p class="text-gray-600">👉 <strong>Note:</strong> Again, use the AI you are most familiar with.</p>
+            </div>
+
+            <h3 class="text-2xl font-semibold text-gray-800 mb-4">Full Prompt for Style Analysis (do not shorten)</h3>
+            <p class="mb-4 text-gray-700 font-medium">Use this prompt <strong>in full and without any changes or omissions</strong>. Every sentence is relevant.</p>
+
+            <!-- Big Prompt Box -->
+            <div class="bg-gray-800 text-gray-200 p-6 rounded-lg shadow-inner font-mono text-sm leading-relaxed overflow-x-auto">
+                <p class="font-bold text-white mb-2 uppercase">**Prompt:**</p>
+                <p class="mb-4">You are an AI coach for writing style and tone of voice.<br>
+                Your task is to analyze the style of the following text so precisely that it results in a reusable style prompt that can be used to consistently create new texts in the same style.</p>
+                
+                <p class="mb-2 font-bold text-white">Procedure:</p>
+                <p class="mb-2">1. Style Analysis<br>
+                Analyze the text according to the following characteristics:<br>
+                communicative stance (e.g., explanatory, narrative, motivating, opinionated)<br>
+                target audience and language level (e.g., technical, approachable, mixed)<br>
+                tone of voice (e.g., direct, emotional, factual, inspiring)<br>
+                sentence style (e.g., short impulses vs. complex sentence structures)<br>
+                linguistic rhythm (e.g., pauses, emphasis, rhetorical questions)<br>
+                word choice (e.g., active vs. passive, strong verbs vs. nouns)<br>
+                structure (paragraphs, lists, examples, dramaturgy)<br>
+                personal language signatures (e.g., recurring terms, anglicisms, typical phrases, signature words like “Yes,” “Nope,” “Exactly,” intensifiers such as “quite honestly,” emojis)<br>
+                linguistic taboos or deliberately avoided words</p>
+
+                <p class="mb-2">If personal language signatures are not clearly identifiable in the text, ask up to three targeted follow-up questions:<br>
+                Do you use specific favorite words or recurring phrases?<br>
+                Do you often use anglicisms or brand-specific terms?<br>
+                Are there words or expressions you deliberately avoid?</p>
+
+                <p class="mb-2">2. Style Fingerprint<br>
+                Summarize the style in 8–10 well-detailed points. Structure:<br>
+                – perspective and form of address<br>
+                – tone of voice<br>
+                – sentence style<br>
+                – linguistic rhythm<br>
+                – word choice and patterns<br>
+                – structure and composition<br>
+                – personal language signatures<br>
+                – do/don’t rules for the style</p>
+
+                <p class="mb-2">3. Create the Style Prompt<br>
+                Based on the style fingerprint, develop a reusable prompt (200–300 words) that can be used to generate texts in the analyzed style.<br>
+                The prompt should:<br>
+                be written in the language of the original text<br>
+                include placeholders (e.g., {{Topic}}, {{Goal}}, {{Format}}, {{TargetAudience}}, {{Tone}})<br>
+                define clear style rules<br>
+                take personal language signatures into account<br>
+                include a short quality check (checklist)</p>
+
+                <p class="mb-4">4. Output Format<br>
+                Provide exactly these two parts:<br>
+                A) Style Fingerprint (list format, concise)<br>
+                B) Style Prompt</p>
+
+                <p class="mb-2">Here is the text to be analyzed:<br>
+                <<< <br>
+                {{TEXT}} <br>
+                > > ></p>
+            </div>
+
+            <div class="mt-8">
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Where does the text come from?</h3>
+                <p class="mb-2 text-gray-700">Use <strong>your own already successful content</strong>, for example:</p>
+                <ul class="list-disc pl-6 mb-2 text-gray-700">
+                    <li>high-performing LinkedIn posts</li>
+                    <li>newsletter texts</li>
+                    <li>blog articles</li>
+                </ul>
+                <p class="text-gray-700">This can also be a successful post from any other platform. What matters is that the style already works and can be reproduced.</p>
+            </div>
+        </section>
+
+        <hr class="border-gray-200">
+
+        <!-- Section 5 -->
+        <section id="section-5">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6 border-b-2 border-[#b42b2c] pb-2 inline-block">5. Images – Supporting the Message, Not Distracting From It</h2>
+            
+            <p class="mb-6 text-gray-700">Good images reinforce your message. They do not replace good content.</p>
+
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Tool 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                    <h3 class="text-xl font-semibold text-[#b42b2c] mb-2">Tool 1: Gemini – Nano Banana</h3>
+                    <p class="mb-4">🔗 <strong>Go to Gemini:</strong> <a href="https://gemini.google.com" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">https://gemini.google.com</a></p>
+                    <p class="font-bold mb-2">Use cases:</p>
+                    <ul class="list-disc pl-6 text-gray-700">
+                        <li>Create a completely new image by describing what should be shown</li>
+                        <li>Modify an existing image (e.g. style, mood, details)</li>
+                    </ul>
+                </div>
+
+                <!-- Tool 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                    <h3 class="text-xl font-semibold text-[#b42b2c] mb-2">Tool 2: ChatGPT – Image Generation</h3>
+                    <p class="mb-4">🔗 <strong>Go to ChatGPT:</strong> <a href="https://chatgpt.com" target="_blank" rel="noopener noreferrer" class="text-blue-600 hover:text-blue-800 underline">https://chatgpt.com</a></p>
+                    <p class="font-bold mb-2">Use cases:</p>
+                    <ul class="list-disc pl-6 text-gray-700">
+                        <li>Create a completely new image</li>
+                        <li>Upload an existing image and modify it using prompts</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mt-6 space-y-4 text-gray-700">
+                <p class="font-bold">Typical scenarios:</p>
+                <ul class="list-disc pl-6">
+                    <li><em>No image yet</em> → describe the image in detail</li>
+                    <li><em>Image already exists</em> → upload and refine it with prompts</li>
+                </ul>
+
+                <div class="bg-green-50 border border-green-200 p-4 rounded mt-4">
+                    <p class="font-bold text-green-900 mb-2">Important – support for good prompts:</p>
+                    <p class="mb-2 text-green-800">
+                        You can get free support for creating strong image prompts via 
+                        <a href="https://chatgpt.com/g/g-6946dd11dba881919bd5d4e910659855-von-0-nach-ki-bildpromptgenerator" target="_blank" rel="noopener noreferrer" class="font-bold hover:underline text-green-900">
+                            Beate’s Image Prompt Generator
+                        </a>:
+                    </p>
+                    <p class="mt-2 text-green-800 text-sm">The generator is set up in <strong>German</strong>, but it can also be used easily for <strong>English image prompts</strong>. The German entry point is intentional, as it was built for a German-speaking community.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr class="border-gray-200">
+
+        <!-- Deep Dive -->
+        <section id="deep-dive" class="bg-indigo-50 p-6 rounded-lg border border-indigo-100">
+            <h3 class="text-2xl font-bold text-indigo-900 mb-4">Want to go deeper?</h3>
+            
+            <!-- Linked Image -->
+            <a href="https://www.skool.com/ki-fur-frauen" target="_blank" rel="noopener noreferrer" class="block mb-6">
+                <img src="https://assets.skool.com/f/ab8fe190eb914039bc094ca6e7834b6b/b17f176265d84ad585ffbf21bc263b3aadb1732cbc0c416b8aa0f6a428a2db18-md.jpg" 
+                     alt="AI Community for Beginners" 
+                     class="w-full max-w-md mx-auto rounded-lg shadow-md hover:opacity-95 transition-opacity duration-200">
+            </a>
+
+            <p class="mb-4 text-indigo-800">If you want to practice regularly, go further, and exchange ideas:</p>
+            <p class="mb-2">
+                🔗 <a href="https://www.skool.com/ki-fur-frauen" target="_blank" rel="noopener noreferrer" class="font-bold text-indigo-900 hover:underline">
+                    AI Community for Beginners by Beate (German-speaking)
+                </a>:
+            </p>
+            <p class="mt-2 text-indigo-800 text-sm">The community is intentionally <strong>German-speaking</strong> and designed for beginners who want to use AI in a practical way, without technical jargon.</p>
+        </section>
+
+        <hr class="border-gray-200">
+
+        <!-- Workflow Summary -->
+        <section id="workflow" class="text-center">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8">Your Mini Workflow at a Glance</h2>
+            <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-4 text-left">
+                <div class="bg-white p-4 rounded shadow border border-gray-100"><span class="block text-2xl font-bold text-red-700 mb-1">1</span> Research topics (NotebookLM)</div>
+                <div class="bg-white p-4 rounded shadow border border-gray-100"><span class="block text-2xl font-bold text-red-700 mb-1">2</span> Condense content (report / blog post)</div>
+                <div class="bg-white p-4 rounded shadow border border-gray-100"><span class="block text-2xl font-bold text-red-700 mb-1">3</span> Generate post ideas (AI of your choice)</div>
+                <div class="bg-white p-4 rounded shadow border border-gray-100"><span class="block text-2xl font-bold text-red-700 mb-1">4</span> Define your goal</div>
+                <div class="bg-white p-4 rounded shadow border border-gray-100"><span class="block text-2xl font-bold text-red-700 mb-1">5</span> Create an editorial plan</div>
+                <div class="bg-white p-4 rounded shadow border border-gray-100"><span class="block text-2xl font-bold text-red-700 mb-1">6</span> Secure your writing style</div>
+                <div class="bg-white p-4 rounded shadow border border-gray-100"><span class="block text-2xl font-bold text-red-700 mb-1">7</span> Add images</div>
+                <div class="bg-white p-4 rounded shadow border border-gray-100"><span class="block text-2xl font-bold text-red-700 mb-1">8</span> Publish your post</div>
+            </div>
+            
+            <p class="mt-12 font-serif italic text-gray-600" style="font-size: 28px;">Remember: Done is better than perfect!</p>
+            
+            <p class="mt-8 text-lg text-gray-600 font-medium">
+                If you have any questions, please feel free to contact me on: 
+                <a href="mailto:Digital@ewmd.org" class="text-[#b42b2c] hover:underline">Digital@ewmd.org</a>
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer - Color changed to #b42b2c to match header -->
+    <footer class="bg-[#b42b2c] text-white py-8 text-center text-sm">
+        <div class="mb-4 flex justify-center">
+            <!-- Logo container with white background for visibility -->
+            <div class="bg-white p-2 rounded-lg shadow-sm">
+                <!-- Updated Image Source -->
+                <img src="https://germany.ewmd.org/photos/49623_02092020023917.jpg" alt="EWMD Logo" class="h-12 object-contain">
+            </div>
+        </div>
+        <p>Social Media with AI – Workshop Handout</p>
+    </footer>
+
+</body>
+</html>
